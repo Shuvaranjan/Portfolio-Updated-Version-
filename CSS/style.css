@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: Inter;
-    src: url(./Fonts/Inter-VariableFont_opsz/,wght.woff2);
+    src: url(/Fonts/Inter-VariableFont_opsz\,wght.woff2);
 }
 * {
     margin: 0;
@@ -311,7 +311,7 @@ nav .Logo h3 {
 .Hero {
     min-height: 100vh;
     /* background-image: url('/Image/red-background.jpg'); */
-    background-image: url('/Image/background01.webp');
+    background-image: url('../Image/background01.webp');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
