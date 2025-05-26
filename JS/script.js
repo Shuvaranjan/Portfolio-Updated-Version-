@@ -1,21 +1,12 @@
 const menu = document.querySelector('.Sidebar_Menu');
 const open_btn = document.getElementById('Open_Menu');
 const close_btn = document.getElementById('Close_Menu');
-const backdrop = document.getElementById('overLayer');
-
-
-backdrop.addEventListener('click', function () {
-    backdrop.style.display = "none";
-    menu.classList.remove('active');
-});
 
 open_btn.addEventListener('click', function () {
     menu.classList.add('active');
-    backdrop.style.display = "block";
 });
 close_btn.addEventListener('click', function () {
     menu.classList.remove('active');
-    backdrop.style.display = "none";
 });
 
 
@@ -60,14 +51,10 @@ window.addEventListener('scroll', function () {
 
 // Hero Section
 const Hero = document.querySelector('.Hero');
-// const light_developer = document.getElementById('dev');
-// const dark_developer = document.getElementById('dev2');
 window.addEventListener('scroll', function () {
     var scroll = window.scrollY;
     if (scroll > 50) {
         Hero.classList.add('Hero_Sticky');
-        // light_developer.style.display = 'none';
-        // dark_developer.style.display = 'block';
     } else {
         Hero.classList.remove('Hero_Sticky');
         light_developer.style.display = 'block';
@@ -114,12 +101,3 @@ function downloadPDF() {
     document.body.removeChild(link);
 }
 
-
-// document.getElementById('Open_Menu').addEventListener('click', function(){
-//    const backdrop = document.getElementById('overLayer');
-//    if(backdrop.style.display == "none"){
-//     backdrop.style.display = "block";
-//    }else{
-//     backdrop.style.display = "none";
-//    }
-// })

@@ -1,5 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap'); */
-
+/* Google Fonts - Inter */
 @font-face {
     font-family: Inter;
     src: url(../Fonts/Inter-VariableFont_opsz\,wght.woff2);
@@ -14,7 +13,6 @@
 }
 
 
-
 body {
     background: #1c1d20;
 }
@@ -26,7 +24,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* padding: 120px 8%; */
     padding: 120px 18%;
     gap: 100px;
     position: relative;
@@ -103,8 +100,6 @@ nav .Logo #dev2 {
 }
 
 
-
-
 nav .Logo h3 {
     font-size: 1.8rem;
     color: var(--white-stroke);
@@ -125,10 +120,6 @@ nav .Logo h3 {
     color: var(--white-stroke);
     transition: .6s;
 }
-
-/* .Nav_Left ul li p:hover {
-    color: var(--primary-color);
-} */
 
 .sticky {
     background: var(--white-stroke);
@@ -289,11 +280,6 @@ nav .Logo h3 {
 }
 
 
-
-
-
-
-
 #Close_Menu {
     cursor: pointer;
     color: #ffffffc0;
@@ -306,11 +292,9 @@ nav .Logo h3 {
 
 
 
-
 /* Hero Section */
 .Hero {
     min-height: 100vh;
-    /* background-image: url('/Image/red-background.jpg'); */
     background-image: url('../Image/background01.webp');
     background-size: cover;
     background-position: center center;
@@ -328,7 +312,6 @@ nav .Logo h3 {
     right: 0;
     width: 50%;
     height: 100%;
-    /* background: linear-gradient(#00605b, #00bf63); */
     background: rgba(1, 173, 87, 0.24);
     border-radius: 95% 0 0 0;
     filter: drop-shadow(0 0 55px rgb(0, 0, 0));
@@ -340,7 +323,6 @@ nav .Logo h3 {
     width: 55%;
     height: 120%;
     right: 0;
-    /* top: 0; */
     bottom: 0;
     display: flex;
     justify-content: center;
@@ -351,7 +333,6 @@ nav .Logo h3 {
     width: 75%;
     height: 100%;
     object-fit: cover;
-    /* filter: drop-shadow(-10px 8px  25px rgba(0, 0, 0, 0.527)); */
 }
 
 #element1 {
@@ -392,7 +373,6 @@ nav .Logo h3 {
 
 .Hero_title h1 {
     width: 50%;
-    /* width: 60%; */
     font-size: 5.3rem;
     font-weight: 700;
 }
@@ -575,17 +555,6 @@ nav .Logo h3 {
 .Item p::-webkit-scrollbar{
     visibility: hidden;
 }
-/* 
-#overLayer {
-    position: fixed;
-    z-index: 999;
-    width: 100%;
-    height: 100vh;
-    background-color: #000000a5;
-    backdrop-filter: blur(5px);
-    display: block;
-    display: none;
-} */
 
 
 .Item button {
@@ -613,7 +582,7 @@ nav .Logo h3 {
 
 /* Experience Section */
 .Experience {
-    background-image: url(/Image/attachment-02.webp);
+    background-image: url('../Image/attachment-02.webp');
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -671,7 +640,6 @@ nav .Logo h3 {
 }
 
 .Experience_Info p {
-    /* width: 100%; */
     font-weight: 400;
     color: #999;
     font-size: 1rem;
@@ -716,9 +684,6 @@ nav .Logo h3 {
 .Experience_btn button:hover .load i {
     animation: fadeDown 1s infinite;
 }
-
-
-
 
 @keyframes fadeDown {
     from {
@@ -784,7 +749,7 @@ nav .Logo h3 {
 .VIt_Image::after {
     content: '';
     position: absolute;
-    background-image: url(/Image/plus-light-pattern.webp);
+    background-image: url('../Image/plus-light-pattern.webp');
     height: 80%;
     width: 100%;
     right: -10%;
@@ -861,8 +826,6 @@ nav .Logo h3 {
 
 
 
-
-
 #Particle_element1 {
     position: absolute;
     object-fit: cover;
@@ -886,8 +849,6 @@ nav .Logo h3 {
     bottom: -10%;
     border-radius: 10px;
 }
-
-
 
 
 
@@ -941,7 +902,7 @@ nav .Logo h3 {
 .Professional_Awards_Image::after {
     content: '';
     position: absolute;
-    background-image: url(/Image/plus-light-pattern.webp);
+    background-image: url('../Image/plus-light-pattern.webp');
     width: 100%;
     height: 60%;
     right: -10%;
@@ -988,7 +949,6 @@ nav .Logo h3 {
     font-size: 1.3rem;
     font-weight: 600;
 }
-
 
 
 .Awards_Wrap {
@@ -1042,7 +1002,7 @@ nav .Logo h3 {
 /* Projects Section */
 .Projects {
     gap: 50px;
-    background-image: url(/Image/attachment-04.webp);
+    background-image: url('../Image/attachment-04.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -1066,7 +1026,7 @@ nav .Logo h3 {
 .Projects_Slide {
     width: 100%;
     border-radius: 10px;
-    background: #34c332 url(/Image/cartographer.png) repeat;
+    background: #34c332 url('../Image/cartographer.webp') repeat;
     padding: 80px 60px;
     display: flex;
     justify-content: center;
@@ -1078,7 +1038,7 @@ nav .Logo h3 {
 .Projects_Slide::after {
     content: '';
     position: absolute;
-    background-image: url(/Image/quote.svg);
+    background-image: url('../Image/quote.svg');
     background-repeat: no-repeat;
     width: 80px;
     height: 80px;
@@ -1096,8 +1056,6 @@ nav .Logo h3 {
 }
 
 .Projects_Image img {
-    /* background-color: rgb(255, 255, 255); */
-    /* padding: 2px; */
     border: 2px solid #a5a5a57d;
     width: 80%;
     border-radius: 5%;
@@ -1131,8 +1089,6 @@ nav .Logo h3 {
     margin-top: 10px;
     margin-bottom: 8px;
     overflow-y: scroll;
-    /* scroll-behavior: smooth; */
-    /* background-color: red; */
 }
 
 .Projects_Info p::-webkit-scrollbar {
@@ -1141,7 +1097,6 @@ nav .Logo h3 {
 
 .name h6 {
     font-size: 1.5rem;
-    /* margin-bottom: 5px; */
 }
 
 
@@ -1153,13 +1108,6 @@ nav .Logo h3 {
     cursor: pointer;
 }
 
-/* .Projects_Info a:last-child{
-    font-size: 0.8em;
-    font-weight: 300;
-    cursor: pointer;
-
-
-} */
 .Projects .Languages {
     display: flex;
     justify-content: center;
@@ -1174,7 +1122,6 @@ nav .Logo h3 {
     padding: 10px;
     filter: brightness(35%);
     border-radius: 50%;
-    /* background-color: #34c332; */
     transition: .6s;
 }
 
@@ -1228,26 +1175,26 @@ body::-webkit-scrollbar-thumb {
 
 
 
-/* Blog Section */
+/* Certificate Section */
 
-.Blog{
+.Certificate{
     flex-direction: column;
     gap: 50px;
 }
 
 
-.Blog_title{
+.Certificate_title{
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.Blog_title h2{
+.Certificate_title h2{
     font-size: 3rem;
 }
 
-.Blog_title button{
+.Certificate_title button{
     background-color: var(--primary-color);
     width: 170px;
     height: 50px;
@@ -1259,7 +1206,7 @@ body::-webkit-scrollbar-thumb {
     cursor: pointer;
 }
 
-.Blog_Wrap{
+.Certificate_Wrap{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -1270,14 +1217,12 @@ body::-webkit-scrollbar-thumb {
 
 
 
-.Blog_Item{
+.Certificate_Item{
     border: 2px solid rgba(196, 193, 193, 0.253);
     background-color: rgba(196, 193, 193, 0.253);
     backdrop-filter: blur(15px);
-    /* border: 5px solid red; */
     border-radius: 8px;
     padding: 20px 5%;
-    /* height: 500px; */
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -1287,7 +1232,7 @@ body::-webkit-scrollbar-thumb {
     z-index: 1;
 }
 
-.Blog_Image{
+.Certificate_Image{
     width: 80%;
     display: flex;
     justify-content: center;
@@ -1295,7 +1240,7 @@ body::-webkit-scrollbar-thumb {
     overflow: hidden;
 }
 
-.Blog_Image img{
+.Certificate_Image img{
     border: 10px solid rgb(206, 206, 206);
     box-shadow: 0 0 50px black;
     width: 100%;
@@ -1305,7 +1250,7 @@ body::-webkit-scrollbar-thumb {
 
 
 
-.Blog_Content{
+.Certificate_Content{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -1313,28 +1258,28 @@ body::-webkit-scrollbar-thumb {
     overflow: hidden;
 }
 
-.Blog_Content ul{
+.Certificate_Content ul{
     width: 100%;
     display: flex;
     gap: 5px;
 }
 
-.Blog_Content ul li{
+.Certificate_Content ul li{
     font-size: 0.9rem;
     color: rgba(16,16,16,.8);
 }
 
-.Blog_Content h4{
+.Certificate_Content h4{
     font-size: 1.5rem;
     line-height: 2.2rem;
     transition: .6s;
 }
 
-.Blog_Content h4:hover{
+.Certificate_Content h4:hover{
     color: var(--primary-color);
 }
 
-.Blog_Content button{
+.Certificate_Content button{
     width: 100%;
     height: 30px;
     display: flex;
@@ -1351,11 +1296,11 @@ body::-webkit-scrollbar-thumb {
     transition: .6s;
 }
 
-.Blog_Item:hover .Blog_Content button{
+.Certificate_Item:hover .Certificate_Content button{
     transform: translateY(0);
 }
 
-.Blog_Content button:hover{
+.Certificate_Content button:hover{
     color: var(--primary-color);
 }
 
@@ -1364,9 +1309,8 @@ body::-webkit-scrollbar-thumb {
 
 .Contact{
     width: 100%;
-    background-image: url(/Image/attachment-05.webp);
+    background-image: url('../Image/attachment-05.webp');
     background-repeat: no-repeat;
-    /* background-position: center; */
     background-size: cover;
     background-attachment: fixed;
     flex-direction: row;
@@ -1660,7 +1604,7 @@ textarea::-webkit-scrollbar-thumb{
         font-size: 1.9rem;
     }
 
-    .Blog_Content h4{
+    .Certificate_Content h4{
         font-size: 1.3rem;
         line-height: 2rem;
     }
@@ -1813,7 +1757,7 @@ textarea::-webkit-scrollbar-thumb{
     }    
 
 
-    .Blog_Wrap{
+    .Certificate_Wrap{
         grid-template-columns: repeat(1,1fr);
     }
     
@@ -1861,7 +1805,6 @@ textarea::-webkit-scrollbar-thumb{
 
     .Projects {
         background-position: center;
-        /* object-fit: cover; */
     }
 
     .Projects_Slide {
@@ -1874,14 +1817,7 @@ textarea::-webkit-scrollbar-thumb{
     }
 
 
-    /* .Languages {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        gap: 50px;
-    }    */
-
-    .Blog_title{
+    .Certificate_title{
         flex-direction: column;
         align-items: start;
         gap: 30px;
@@ -1892,7 +1828,6 @@ textarea::-webkit-scrollbar-thumb{
     }
    
 
-   
 }
 
 @media screen and (max-width:468px){
@@ -1923,7 +1858,6 @@ textarea::-webkit-scrollbar-thumb{
         width: 35vw;
         height: 15vh;
     }
-
 
 
 }
